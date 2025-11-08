@@ -1,0 +1,64 @@
+h1 {
+    font-size: 50px;
+
+}
+ .no-bold {
+      font-weight: normal;
+      font-size: 20px;
+    }
+.tour_360_mundo_ucab{
+    width: 1220px;
+    height: 200px ;
+}
+
+.informacion-pag{
+    float: left; /* Flota la imagen a la izquierda */
+  margin-right: 10px; /* Agrega espacio a la derecha para la segunda imagen */
+
+}
+.susbrayar {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Arial, sans-serif;
+  
+}
+h3 {
+  background-color: rgb(107, 107, 109);
+  width: 1200px;
+  height: 40px;
+text-align: center;
+}
+.list-group-itemh {
+  /* Usa flexbox para alinear el contenido */
+  align-items: center; /* Centra verticalmente */
+  display: flex;
+  justify-content: space-between; /* Separa el texto del botón */
+}
+.delete-button {
+  /* Estilos para el botón de borrar */
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius:  30% ;
+  cursor: pointer;
+}
+.edit-button {
+  /* Estilos para el botón de editar */
+  background-color:rgb(63, 83, 234);
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.edit-button a {
+color: white;
+text-decoration: none;
+}
+body {
+  font-size: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;;
+}
+footer{
+  background-color: #D0D0D0;
+}
