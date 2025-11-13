@@ -44,7 +44,7 @@ text-align: center;
 }
 .edit-button {
   /* Estilos para el botón de editar */
-  background-color:rgb(63, 83, 234);
+  background-color:#40B4E5;
   color: white;
   padding: 10px 20px;
   margin: 10px;
@@ -57,8 +57,31 @@ color: white;
 text-decoration: none;
 }
 body {
-  font-size: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;;
+  font-size:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
 }
 footer{
   background-color: #D0D0D0;
+
+}
+.titulo-especial {
+  font-size: 2.5em;
+  font-weight: bold; 
+  text-align: center;
+}
+.parrafo{
+  text-align: justify;
+}
+.hoja{
+  background-color: #d4d1d1;
+}
+.azul{
+  color: #40B4E5;
+}
+.imagen-con-borde {
+  border: 5px solid #000000; 
+}
+.li{
+  background-color:#40B4E5;
+   padding: 0,2px;
 }
